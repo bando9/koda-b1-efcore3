@@ -37,4 +37,7 @@ Where TABLE_TYPE = 'BASE TABLE';
 GO
 
 select * FROM __EFMigrationsHistory;
-select * FROM dbo.Product;
+
+select * FROM Product;
+select * FROM Orders;
+select * FROM OrderItems;

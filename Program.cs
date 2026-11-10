@@ -5,7 +5,7 @@ using KodaStore.Api.Middlewares;
 using KodaStore.Api.Repositories;
 using KodaStore.Api.Services;
 using Microsoft.EntityFrameworkCore;
-// using KodaStore.Api.Seeding;
+using KodaStore.Api.Seeding;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -44,9 +44,18 @@ var connectionString = builder.Configuration.GetConnectionString("ecommercedb")
 
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    options.UseSqlServer(connectionString);
-        // .UseSeeding((context, _) => ProductSeedData.Seed(context))
-        // .UseAsyncSeeding((context,_,ct) => ProductSeedData.SeedAsync(context,ct));
+    options.UseSqlServer(connectionString)
+        .UseSeeding((context, _) =>
+        {
+            ProductSeedData.Seed(context);
+             OrderSeedData.Seed(context);
+        })
+        .UseAsyncSeeding(async (context,_,ct) =>
+        {
+            await ProductSeedData.SeedAsync(context,ct);
+            await OrderSeedData.SeedAsync(context,ct);
+        });
+
 }); 
 
 
