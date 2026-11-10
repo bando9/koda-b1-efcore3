@@ -3390,11 +3390,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\code\\koda-projects\\day17-efcore-datainteg\\koda-b1-efcore\\KodaStore.Api.csproj",
+      "projectUniqueName": "E:\\code\\koda-projects\\day17-efcore-datainteg\\koda-b1-efcore-dotnet2\\KodaStore.Api.csproj",
       "projectName": "KodaStore.Api",
-      "projectPath": "E:\\code\\koda-projects\\day17-efcore-datainteg\\koda-b1-efcore\\KodaStore.Api.csproj",
+      "projectPath": "E:\\code\\koda-projects\\day17-efcore-datainteg\\koda-b1-efcore-dotnet2\\KodaStore.Api.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "E:\\code\\koda-projects\\day17-efcore-datainteg\\koda-b1-efcore\\obj\\",
+      "outputPath": "E:\\code\\koda-projects\\day17-efcore-datainteg\\koda-b1-efcore-dotnet2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

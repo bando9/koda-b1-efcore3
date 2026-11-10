@@ -20,53 +20,53 @@ build_property.TargetFrameworkVersion = v10.0
 build_property.EntryPointFilePath = 
 build_property.RootNamespace = KodaStore.Api
 build_property.RootNamespace = KodaStore.Api
-build_property.ProjectDir = E:\code\koda-projects\day17-efcore-datainteg\koda-b1-efcore\
+build_property.ProjectDir = E:\code\koda-projects\day17-efcore-datainteg\koda-b1-efcore-dotnet2\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 10.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\code\koda-projects\day17-efcore-datainteg\koda-b1-efcore
+build_property.MSBuildProjectDirectory = E:\code\koda-projects\day17-efcore-datainteg\koda-b1-efcore-dotnet2
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore/Views/Catalog/Create.cshtml]
+[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore-dotnet2/Views/Catalog/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore/Views/Catalog/Delete.cshtml]
+[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore-dotnet2/Views/Catalog/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore/Views/Catalog/Details.cshtml]
+[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore-dotnet2/Views/Catalog/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore/Views/Catalog/Edit.cshtml]
+[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore-dotnet2/Views/Catalog/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore/Views/Catalog/Index.cshtml]
+[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore-dotnet2/Views/Catalog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore/Views/Index.cshtml]
+[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore-dotnet2/Views/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore/Views/Shared/_Layout.cshtml]
+[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore-dotnet2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore/Views/Shared/_StockBadge.cshtml]
+[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore-dotnet2/Views/Shared/_StockBadge.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdG9ja0JhZGdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore/Views/_ViewImports.cshtml]
+[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore-dotnet2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore/Views/_ViewStart.cshtml]
+[E:/code/koda-projects/day17-efcore-datainteg/koda-b1-efcore-dotnet2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
