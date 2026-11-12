@@ -8,7 +8,7 @@
 --     Price DECIMAL(18,2) NOT NULL,
 --     Stock INT NOT NULL DEFAULT 0,
 --     Category NVARCHAR(50) NOT NULL,
---     IsActive BIT NOT NULL DEFAULT 1,
+--     IsActive BIT NOT NULL DEFAULT 1, 
 
 --     CONSTRAINT CK_Products_Price
 --         CHECK(Price >= 0),
@@ -41,3 +41,4 @@ select * FROM __EFMigrationsHistory;
 select * FROM Product;
 select * FROM Orders;
 select * FROM OrderItems;
+Go

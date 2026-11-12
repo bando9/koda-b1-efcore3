@@ -34,9 +34,12 @@ builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 // builder.Services.AddScoped<IProductRepository, SqlProductRepository>();
 builder.Services.AddScoped<IProductRepository, EfProductRepository>();
 
+builder.Services.AddScoped<IOrderRepository, EfOrderRepository>();
+
 // Service
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductImageStorage, LocalProductImageStorage>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 
 
 var connectionString = builder.Configuration.GetConnectionString("ecommercedb") 

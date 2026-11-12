@@ -37,7 +37,7 @@ Content-Type: application/json
     "category": "Bakso",
     "description": "Bakso pake urat sapi, rasa rada alot menggoda"
 }
-
+ 
 ### Delete Product
 DELETE {{baseUrl}}/api/v1/products/PR05
 Accept: application/json
@@ -52,3 +52,43 @@ Content-Type: image/jpeg
 
 < C:\Upload\valid_product.jpg
 --KodaStore--
+
+
+### Get Orders
+GET {{baseUrl}}/api/v1/orders
+Accept: application/json
+
+### Get Orders by Id
+GET {{baseUrl}}/api/v1/orders/1
+Accept: application/json
+
+### Update Confirm
+PATCH {{baseUrl}}/api/v1/orders/3/confirm
+Accept: application/json
+
+
+
+### POST Order 
+POST {{baseUrl}}/api/v1/orders
+Accept: application/json
+Content-Type: application/json
+
+{
+    "orderNumber": "ORD-003",
+    "items": [
+        {
+            "productCode": "P001",
+            "productName": "Keyboard Mekanik",
+            "quantity": 4,
+            "unitPrice": 35000.00,
+            "subTotal": 140000.00
+        },
+        {
+            "productCode": "P002",
+            "productName": "Mouse",
+            "quantity": 5,
+            "unitPrice": 20000.00,
+            "subTotal": 100000.00
+        }
+    ]
+}

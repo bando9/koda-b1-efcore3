@@ -32,6 +32,13 @@ public sealed class Order
         Items.Add(new OrderItem(product,quantity));
     }
 
+    public void Confirm()
+    {
+        if(Status == "Confirmed") return;
+
+        Status = "Confirmed";
+    }
+
 
 
 }
